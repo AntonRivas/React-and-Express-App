@@ -1,0 +1,27 @@
+{
+  "name": "React-and-Express-App",
+  "version": "1.0.0",
+  "description": "Following [this](https://rapidapi.com/blog/create-react-app-express/) tutorial to create a simple web app in Express Js that accesses the Word Asssociations API and uses React to display the front end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonRivas/React-and-Express-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonRivas/React-and-Express-App/issues"
+  },
+  "homepage": "https://github.com/AntonRivas/React-and-Express-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.0",
+    "unirest": "^0.6.0"
+  }
+}
